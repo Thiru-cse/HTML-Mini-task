@@ -1,0 +1,38 @@
+body {
+    padding: 10px;
+  }
+  div {
+    width: 450px;
+    border: 2px solid black;
+    font-size: 85%;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: white;
+    background-color: red;
+    font-size: 175%;
+    padding: 0%;
+    margin: 0%;
+    height: 5vh;
+    text-align: center;
+  }
+  
+  input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+  }
+  
+  p {
+    padding-left: 5%;
+  }
+
+  .mandatory::after {
+    content: "*";
+    color: red;
+    display: inline-block;
+    text-indent: 9px;
+  }
+  

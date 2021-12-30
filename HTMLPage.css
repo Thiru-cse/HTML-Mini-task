@@ -1,0 +1,14 @@
+li{
+    list-style: lower-alpha;
+}
+
+ul input
+{
+    width: 8px;
+}
+
+.list 
+{
+    list-style: square;
+} 
+

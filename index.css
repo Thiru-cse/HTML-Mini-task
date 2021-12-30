@@ -1,0 +1,17 @@
+li{
+  list-style: lower-alpha;
+}
+
+ul input
+{
+  width: 8px;
+}
+
+ul > label
+{
+  list-style: square;
+}
+
+ul {
+  list-style-image: url('sqpurple.gif');
+}
